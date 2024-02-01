@@ -11,4 +11,5 @@ function randomGame() {
  },1000)
 }
 //for test the function uncomment the below line
+//
 //randomGame()
