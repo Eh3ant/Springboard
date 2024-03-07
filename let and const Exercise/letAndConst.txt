@@ -1,0 +1,35 @@
+ES5 Global Constants:
+
+var PI = 3.14;
+PI = 42; // stop me from doing this!
+
+ES2015 Global Constants :
+
+const PI = 3.14;
+PI = 42;
+
+
+1.What is the difference between var and let?
+
+The main difference between let and var is  in their scoping behavior.
+Variables declared with var are function-scoped meaning they are accessible throughout the entire function in which they are declared.
+But variables declared with let are block-scoped, meaning they are only accessible within the block in which they are defined.
+Another difference between var and let is Hoisting. The other difference betweenthem is that let creates block scope.
+
+
+2.What is the difference between var and const?
+
+The main difference between var and const in JavaScript is that var is used for variable declaration with function or global scope and allows reassignment
+while const is used for declaring constants that cannot be reassigned after initialization.And like let , const creates block scope
+
+3.What is the difference between let and const?
+
+The main difference between let and const in JavaScript is their mutability
+Variables declared with let can be reassigned to a different value.
+Constants declared with const cannot be reassigned once they are initialized
+
+4.What is hoisting?
+
+Hoisting is a JavaScript behavior where variable and function declarations are moved to the top of their containing scope
+during the compilation phase, before the code is executed. This means that regardless of where a variable or function is
+declared within its scope, it is treated as if it were declared at the top.
